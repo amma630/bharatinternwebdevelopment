@@ -1,0 +1,308 @@
+.heading1{
+    font-size: 30px;
+    position: absolute;left: 500px;
+    color:red;
+
+}
+.heading2{
+    font-size: 30px;
+    position: absolute;left: 600px;
+    color:red;
+
+}
+.heading3{
+    font-size: 30px;
+    position: absolute;left: 730px;
+    color:red;
+
+}
+.heading4{
+    font-size: 30px;
+    position: absolute;left: 890px;
+    color:red;
+
+}
+.tech1{
+    width: 100px;
+    height: 100px;
+    position: absolute; top:250px; left:900px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side,white 79%,transparent 80% 100%),conic-gradient(magenta 89%,green);
+}
+.tech1i{
+    position:absolute; top:50px; left:40px;
+    color: black;
+}
+.techm{
+    position:absolute; top:120px; left:40px;
+    color:orange;
+    font-size: 30px;
+}
+.tech2{
+    width: 100px;
+    height: 100px;
+    position: absolute; top:10px; left:400px;
+    border-radius: 50%;
+    background: radial-gradient(closest-side,white 79%,transparent 80% 100%),conic-gradient(magenta 40%,green);
+}
+.tech2i{
+    position:absolute; top:50px; left:420px;
+    color: black;
+}
+.tech2m{
+    position:absolute; top:120px; left:400px;
+    color:orange;
+    font-size: 30px;
+}
+
+.skill1{
+    position:absolute; top:60px; left:600px;
+    
+}
+.skill2{
+    position:absolute; top:80px; left:600px;
+    color: darkgreen;
+    font-size: 50px;
+}
+.skill3{
+    position:absolute; top:120px; left:400px;
+    color: darkorange;
+    font-size: 30px;   
+}
+.skill4{
+    position:absolute; top:120px; left:900px;
+    color: darkorange;
+    font-size: 30px;   
+}
+.skill5{
+    position:absolute; top:250px; left:400px;
+    color: chocolate;
+    font-size: 30px;   
+}
+.skill6{
+    position:absolute; top:250px; left:600px;
+    color: chocolate;
+    font-size: 30px;   
+}
+.skill7{
+    position:absolute; top:300px; left:400px;
+    color: chocolate;
+    height: 20px;
+    width:300px;
+    background-color: green;  
+}
+.skill8{
+    position:absolute; top:300px; left:600px;
+    color: chocolate;
+    height: 20px;
+    width:100px;
+    background-color: red;  
+}
+.skill9{
+    position:absolute; top:350px; left:400px;
+    color: chocolate;
+    font-size: 30px;   
+}
+.skill10{
+    position:absolute; top:350px; left:600px;
+    color: chocolate;
+    font-size: 30px;   
+}
+.skill11{
+    position:absolute; top:390px; left:400px;
+    color: chocolate;
+    height: 20px;
+    width:300px;
+    background-color:green;  
+}
+h1{
+    color: darkblue;
+}
+.pr{
+    font-size: 30px;
+    color:green;
+    position:absolute; top:600px; left:190px;
+}
+.pr2{
+    font-size: 30px;
+    color:green;
+    position:absolute; top:600px; left:590px;
+}
+.pr3{
+    font-size: 30px;
+    color:green;
+    position:absolute; top:600px; left:930px;
+}
+
+
+.p1
+{
+    position: absolute; top:300px; left:100px;
+    border: 3px solid red;
+
+}
+.p2
+{
+    position: absolute; top:300px; left:500px;
+    border: 3px solid red;
+
+}
+.p3
+{
+    position: absolute; top:300px; left:900px;
+    border: 3px solid red;
+
+}
+.skill12{
+    position:absolute; top:390px; left:600px;
+    color: chocolate;
+    height: 20px;
+    width:100px;
+    background-color: red;  
+}
+.skill13{
+    position:absolute; top:440px; left:400px;
+    color: chocolate;
+    font-size: 30px;   
+}
+.skill14{
+    position:absolute; top:440px; left:600px;
+    color: chocolate;
+    font-size: 30px;   
+}
+.skill15{
+    position:absolute; top:480px; left:400px;
+    color: chocolate;
+    height: 20px;
+    width:150px;
+    background-color: green;  
+}
+.skill16{
+    position:absolute; top:480px; left:550px;
+    color: chocolate;
+    height: 20px;
+    width:150px;
+    background-color: red;  
+}
+.about1{
+    color:black;
+    font-size: 20px;
+    position: absolute; left: 680px; top :150px;
+}
+.about2{
+    color:orange;
+    font-size: 50px;
+    position: absolute; left: 750px; top:200px;
+}
+.about4
+{
+    font-size: 50px;
+    position: absolute; top:250px;left:100px;
+    transform: rotate(5deg);
+    border: 3px solid goldenrod ;
+}
+.about3
+{
+    
+    font-size: 30px;
+    position: absolute; left: 800px; top:300px;
+    height: 300px;
+    color: black;
+    width:700px;
+}
+/*initial extra paragragraph is not visible */
+.extrapara{
+    display: none;
+}
+/*Extra Paragraph in line*/
+.p{
+    display: inline;
+}
+/*Take input checkbox iniiial not diplay*/
+input[type="checkbox"]
+{
+    height: 2em;
+    display: block;
+    appearance:none;
+
+}
+/*label color and size  with pointer cursorr*/
+label{
+    position: relative;
+    padding: 1em;
+    background-color: orange;
+    color: blueviolet;
+    cursor: pointer;
+}
+/*Label is befor which is empty show read more*/
+label:before{
+    content:"Read More";
+}
+/*if label clicked after show read less*/
+input[type="checkbox"]:checked ~ label:before
+{
+    content:"Read Less";
+}
+
+.dots:has(~ input[type="checkbox"]:checked)
+{
+    display: none;
+}
+.extrapara:has(~ input[type="checkbox"]:checked)
+{
+    display: inline;
+}
+.myself{
+    color: orangered;
+    font-size: 50px;
+    position: absolute; top: 200px; left:200px
+}
+.myself1{
+    color: yellow;
+    font-size: 50px;
+    position: absolute; top: 200px; left:280px
+}
+.picture{
+    position: absolute; top:200px; left:800px;
+    width: 250px;
+    height: 100px;
+   
+}
+.contactme{
+    font-size: 50px;
+    color: orange;
+    position: absolute;left: 550px;top: 50px;
+
+}
+#myname{
+    position: absolute; left: 550px;top: 200px;
+    font-size: 30px;
+}
+#email{
+    position: absolute; left: 550px;top: 250px;
+    font-size: 30px;
+}
+#subject{
+    position: absolute; left: 550px;top: 300px;
+    font-size: 30px;
+}
+#message{
+    position: absolute; top: 350px;left: 550px;
+    font-size: 30px;
+}
+#sendmessage{
+    position: absolute; top: 550px;left: 550px;
+    font-size: 30px;
+}
+#contacttext{
+    position: absolute; top:580px;left: 650px;
+}
+#twitter{
+    position: absolute; left: 550px; top: 650px;
+}
+#facbook{
+    position: absolute; left: 750px; top: 670px;
+}
+#insta{
+    position: absolute; top: 660px; left: 900px;
+}
